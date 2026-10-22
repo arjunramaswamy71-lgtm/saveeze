@@ -1,0 +1,13 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": false,
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "types": ["chrome"]
+  },
+  "include": ["src", "tests", "e2e", ".wxt/wxt.d.ts", "wxt.config.ts", "vitest.config.ts", "playwright.config.ts"]
+}
